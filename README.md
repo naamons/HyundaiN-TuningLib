@@ -28,6 +28,26 @@ If you are not familiar with tuning modern torque-based ECUs, **do not flash cus
 - `XDF` or `XML` definition files for use with TunerPro RT
 - Original `BIN` files
 
+## How to Use
+
+1. **Download the Matching Files**  
+   Grab the correct `XDF` and original `BIN` file that matches the software version on your ECU.
+
+2. **Open in TunerPro RT**  
+   Launch TunerPro RT and load the `XDF` definition. Then open the corresponding `BIN` file.  
+   *(Refer to [TunerPro RT documentation](http://www.tunerpro.net/help/) if you're new to the software.)*
+
+3. **Edit Your Tune**  
+   Make your desired changes to maps.
+
+4. **Save the BIN File**  
+   Save your modified calibration as a new `.BIN` file.
+
+5. **Flash to ECU**  
+   Use BitBox or any flashing tool that supports `.BIN` format and checksum correction for SIM2K ECUs to flash the file to your vehicle.
+
+> **Note:** Always log your changes and test incrementally. A small mistake in torque modeling can cause major issues.
+
 ## Contributing
 
 Pull requests are welcome. If you have improved map definitions, added axis scaling, or discovered new maps, we encourage you to share them with the community.
