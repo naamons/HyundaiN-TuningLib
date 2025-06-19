@@ -10,7 +10,7 @@ This project was created to open source tuning definitions for the Elantra N, en
 
 - **Editor:** [TunerPro RT](http://www.tunerpro.net/) (for editing XDF/XML definitions and BIN files)
 - **Flashing Software:** BitBox or any compatible device/software that supports `.BIN` format and checksum correction for SIM2K ECUs
-- **Data Logging Software:** VehiCAL is the best option as it allows RAM virable logging
+- **Data Logging Software:** VehiCAL is the best option as it allows RAM variable logging
 
 
 ## Platform Details
